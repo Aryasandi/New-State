@@ -1,0 +1,44 @@
+*,body{
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#trailer{
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+
+}
+
+.game-caption img{
+	width: 130px; 
+	height: 80px;
+	border-radius: 2px;
+}
+
+.game-caption{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.game-caption button{
+	border: none;
+	background-color: black;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	width: 105px;
+	font-family: sans-serif;
+}
+
+.game-caption button:hover{
+	cursor: pointer;
+}
